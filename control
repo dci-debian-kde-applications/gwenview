@@ -1,7 +1,8 @@
 Source: gwenview
 Section: graphics
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                kde-sc-dev-latest (>= 4:4.7.1),
@@ -13,14 +14,14 @@ Build-Depends: cmake,
                shared-desktop-ontologies
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org
-Vcs-Git: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/gwenview
-Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/gwenview
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/gwenview.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/gwenview.git
 
 Package: gwenview
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdegraphics-libs-data (<< 4:4.6.3-1ubuntu1)
-Breaks: kdegraphics-libs-data (<< 4:4.6.3-1ubuntu1)
+Replaces: kdegraphics-libs-data (<< 4:4.7.1~)
+Breaks: kdegraphics-libs-data (<< 4:4.7.1~)
 Suggests: svgpart
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
@@ -34,8 +35,8 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: gwenview (= ${binary:Version}), kde-runtime-dbg, ${misc:Depends}
-Replaces: kdegraphics-dbg (<< 4:4.6.80)
-Breaks: kdegraphics-dbg (<< 4:4.6.80)
+Replaces: kdegraphics-dbg (<< 4:4.7.1~)
+Breaks: kdegraphics-dbg (<< 4:4.7.1~)
 Description: debugging symbols for the gwenview module
  This package contains debugging files used to investigate problems with
  binaries included in the gwenview module.
