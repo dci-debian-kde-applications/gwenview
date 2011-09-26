@@ -1,5 +1,5 @@
-gwenview (4:4.7.1-0rc1) oneiric; urgency=low
+gwenview (4:4.7.1-0rc1) UNRELEASED; urgency=low
 
-  * Initial release. Start from the Ubuntu packaging, thanks!
+  * Initial release. Start from the Kubuntu packaging, thanks!
 
  -- Eshat Cakar <info@eshat.de>  Mon, 26 Sep 2011 23:02:58 +0200
