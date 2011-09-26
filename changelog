@@ -1,6 +1,5 @@
 gwenview (4:4.7.1-0rc1) oneiric; urgency=low
 
-  * Initial release, since split from package kdegraphics
-  * Imported from ubuntu, thanks to Kubuntu Developers
+  * Initial release. Start from the Ubuntu packaging, thanks!
 
- -- Eshat Cakar <eshat@kvm-kde>  Mon, 26 Sep 2011 15:58:10 +0200
+ -- Eshat Cakar <info@eshat.de>  Mon, 26 Sep 2011 23:02:58 +0200
