@@ -36,6 +36,8 @@ Priority: extra
 Depends: gwenview (= ${binary:Version}), kde-runtime-dbg, ${misc:Depends}
 Replaces: kdegraphics-dbg (<< 4:4.7.1~)
 Breaks: kdegraphics-dbg (<< 4:4.7.1~)
-Description: debugging symbols for the gwenview module
+Description: debugging symbols for the gwenview
  This package contains debugging files used to investigate problems with
- binaries included in the gwenview module.
+ Gwenview.
+ .
+ This package is part of the KDE graphics module.
