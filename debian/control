@@ -1,25 +1,24 @@
 Source: gwenview
-Section: graphics
+Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>
-Build-Depends: cmake,
- debhelper (>= 7.0.50~),
- kde-sc-dev-latest (>= 4:4.7.2),
+Build-Depends: kde-sc-dev-latest (>= 4:4.6.5),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  libexiv2-dev,
  libjpeg-dev,
  libkipi-dev,
  libkonq5-dev,
- pkg-kde-tools,
  shared-desktop-ontologies
 Standards-Version: 3.9.2
-Homepage: http://www.kde.org
+Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/gwenview.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/gwenview.git
 
 Package: gwenview
+Section: graphics
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.7.1~)
 Breaks: kdegraphics-libs-data (<< 4:4.7.1~)
 Suggests: svgpart
