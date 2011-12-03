@@ -1,4 +1,4 @@
-gwenview (4:4.7.2-0r2) experimental; urgency=low
+gwenview (4:4.7.2-1) experimental; urgency=low
 
   [ Eshat Cakar ]
   * Initial release. Start from the Kubuntu packaging, thanks!
