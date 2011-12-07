@@ -3,12 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>
-Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- libexiv2-dev,
- libjpeg-dev,
- libkipi-dev,
- libkonq5-dev,
+ libexiv2-dev, libjpeg-dev, libkipi-dev, libkonq5-dev,
  shared-desktop-ontologies
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
@@ -21,7 +18,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.7.1~)
 Breaks: kdegraphics-libs-data (<< 4:4.7.1~)
-Suggests: svgpart, kamera
+Recommends: kamera
+Suggests: svgpart
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
  images.  It is capable of showing images in a full-screen slideshow view and
