@@ -4,6 +4,7 @@ gwenview (4:4.7.97-0r0) UNRELEASED; urgency=low
 
   [ Eshat Cakar ]
   * Add libqt4-opengl-dev to build-dependecies.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Jan 2012 12:19:57 +0100
 
