@@ -1,3 +1,16 @@
+gwenview (4:4.8.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  [ Eshat Cakar ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
+  * Add libqt4-opengl-dev to build-dependecies.
+  * Update installed files.
+  * Bump Standards-Version to 3.9.3: No further changes.
+  * Add watch file.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Jan 2012 12:19:57 +0100
+
 gwenview (4:4.7.4-2) unstable; urgency=low
 
   * Team upload. Upload to unstable.
