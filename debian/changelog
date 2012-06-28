@@ -1,12 +1,12 @@
-gwenview (4:4.8.4-2) UNRELEASED; urgency=low
+gwenview (4:4.8.4-2) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Backport upstream commit 05511b41913904c36bfd2cccc888ac4c466784f1 to fix
     crash when gathering meta info by catching Exiv2 exceptions; patch
     upstream_Catch-exceptions-from-Exiv2-when-gathering-meta-info.patch.
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Jun 2012 15:17:19 +0200
+ -- Pino Toscano <pino@debian.org>  Thu, 28 Jun 2012 19:27:14 +0200
 
 gwenview (4:4.8.4-1) unstable; urgency=low
 
