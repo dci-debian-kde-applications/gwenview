@@ -1,3 +1,9 @@
+gwenview (4:4.10.2-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Apr 2013 22:02:14 +0200
+
 gwenview (4:4.8.4-2) unstable; urgency=low
 
   * Team upload.
