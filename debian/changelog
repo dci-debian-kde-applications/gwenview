@@ -5,6 +5,7 @@ gwenview (4:4.10.2-0r0) UNRELEASED; urgency=low
   [ Josep Febrer Salord ]
   * Bump kde-sc-dev-latest build dependency to 4:4.10.2.
   * Add libkactivities-dev, libpng-dev and liblcms2-dev build dependencies.
+  * Disable build of unit tests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Apr 2013 22:02:14 +0200
 
