@@ -8,6 +8,7 @@ gwenview (4:4.10.2-0r0) UNRELEASED; urgency=low
   * Disable build of unit tests.
   * Drop upstream_Catch-exceptions-from-Exiv2-when-gathering-meta-info.patch
     already applied upstream.
+  * Update gwenview.install file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Apr 2013 22:02:14 +0200
 
