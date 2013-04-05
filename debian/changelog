@@ -1,4 +1,4 @@
-gwenview (4:4.10.2-0r0) UNRELEASED; urgency=low
+gwenview (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -12,10 +12,10 @@ gwenview (4:4.10.2-0r0) UNRELEASED; urgency=low
   * Update copyright file.
 
   [ Sune Vuorela ]
-  * Bump libkipi build-dep
-  * Add me to uploaders
+  * Bump libkipi build-dep.
+  * Add me to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Apr 2013 22:02:14 +0200
+ -- Sune Vuorela <sune@debian.org>  Fri, 05 Apr 2013 23:27:47 +0000
 
 gwenview (4:4.8.4-2) unstable; urgency=low
 
