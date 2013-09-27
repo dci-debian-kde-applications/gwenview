@@ -2,15 +2,9 @@ usr/bin/gwenview
 usr/bin/gwenview_importer
 usr/lib/kde4/gvpart.so
 usr/lib/libgwenviewlib.so.4
-usr/lib/libgwenviewlib.so.4.10.*
+usr/lib/libgwenviewlib.so.4.*
 usr/share/applications/kde4/gwenview.desktop
-usr/share/doc/kde/HTML/en/gwenview/browse_mode.png
-usr/share/doc/kde/HTML/en/gwenview/common
-usr/share/doc/kde/HTML/en/gwenview/fullscreen_mode.png
-usr/share/doc/kde/HTML/en/gwenview/importer.png
-usr/share/doc/kde/HTML/en/gwenview/index.cache.bz2
-usr/share/doc/kde/HTML/en/gwenview/index.docbook
-usr/share/doc/kde/HTML/en/gwenview/view_mode.png
+usr/share/doc/kde/HTML/*/gwenview/
 usr/share/icons/hicolor/128x128/actions/document-share.png
 usr/share/icons/hicolor/128x128/apps/gwenview.png
 usr/share/icons/hicolor/16x16/actions/document-share.png
