@@ -2,6 +2,7 @@ gwenview (4:4.11.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update install files.
+  * Update build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 15:28:01 +0200
 
