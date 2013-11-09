@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>, Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- libexiv2-dev, libjpeg-dev, libkipi-dev (>= 4:4.11), libkonq5-dev,
+ libexiv2-dev, libjpeg-dev, libkipi-dev (>= 4:4.11), libkonq5-dev (>= 4:4.11),
  shared-desktop-ontologies (>= 0.8), libqt4-opengl-dev,
- libkactivities-dev (>= 4:4.10), libpng-dev, liblcms2-dev,
- nepomuk-core-dev
+ libkactivities-dev (>= 4:4.11), libpng-dev, liblcms2-dev,
+ nepomuk-core-dev (>= 4:4.11), libsoprano-dev
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/gwenview.git
