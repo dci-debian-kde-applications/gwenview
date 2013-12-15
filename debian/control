@@ -9,7 +9,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libexiv2-dev, libjpeg-dev, libkipi-dev (>= 4:4.11), libkonq5-dev (>= 4:4.11),
  shared-desktop-ontologies (>= 0.8), libqt4-opengl-dev,
  libkactivities-dev (>= 4:4.11), libpng-dev, liblcms2-dev,
- nepomuk-core-dev (>= 4:4.11), libsoprano-dev
+ nepomuk-core-dev (>= 4:4.11), libsoprano-dev,
+ pkg-config,
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/gwenview.git
