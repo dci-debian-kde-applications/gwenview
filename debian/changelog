@@ -5,6 +5,7 @@ gwenview (4:4.11.3-2) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * Build the unit tests.
+  * Add autopkgtests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Dec 2013 22:17:45 +0100
 

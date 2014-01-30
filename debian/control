@@ -12,6 +12,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  nepomuk-core-dev (>= 4:4.11), libsoprano-dev,
  pkg-config,
 Standards-Version: 3.9.4
+XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/gwenview.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/gwenview.git
