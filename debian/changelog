@@ -3,6 +3,9 @@ gwenview (4:4.11.3-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
 
+  [ Maximiliano Curia ]
+  * Build the unit tests.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Dec 2013 22:17:45 +0100
 
 gwenview (4:4.11.3-1) unstable; urgency=low
