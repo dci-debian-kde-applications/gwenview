@@ -1,4 +1,4 @@
-gwenview (4:4.11.3-2) UNRELEASED; urgency=low
+gwenview (4:4.12.2-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
@@ -7,8 +7,9 @@ gwenview (4:4.11.3-2) UNRELEASED; urgency=low
   * Build the unit tests.
   * Add autopkgtests.
   * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Dec 2013 22:17:45 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 23:59:12 +0100
 
 gwenview (4:4.11.3-1) unstable; urgency=low
 
