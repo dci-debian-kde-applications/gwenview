@@ -5,22 +5,22 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: baloo-dev (>= 4.13),
+               cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                libexiv2-dev,
                libjpeg-dev,
                libkactivities-dev (>= 4:4.11),
+               libkdcraw-dev (>= 4:4.13),
+               libkfilemetadata-dev (>= 4:4.13),
                libkipi-dev (>= 4:4.11),
                libkonq5-dev (>= 4:4.11),
                liblcms2-dev,
                libpng-dev,
                libqt4-opengl-dev,
-               libsoprano-dev,
-               nepomuk-core-dev (>= 4:4.11),
                pkg-config,
-               pkg-kde-tools (>= 0.12),
-               shared-desktop-ontologies (>= 0.8)
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
