@@ -1,3 +1,9 @@
+gwenview (4:4.13.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 17:39:29 +0200
+
 gwenview (4:4.12.3-2) unstable; urgency=medium
 
   * Release to unstable
