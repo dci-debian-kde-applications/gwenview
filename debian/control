@@ -5,22 +5,19 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: baloo-dev (>= 4.13),
-               cmake,
+Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.12),
                libexiv2-dev,
                libjpeg-dev,
-               libkactivities-dev (>= 4:4.11),
-               libkdcraw-dev (>= 4:4.13),
-               libkfilemetadata-dev (>= 4:4.13),
-               libkipi-dev (>= 4:4.11),
-               libkonq5-dev (>= 4:4.11),
+               libkf5activites-dev,
+               libkf5kdelibs4support-dev,
                liblcms2-dev,
+               libphonon4qt5-dev,
                libpng-dev,
-               libqt4-opengl-dev,
+               libqt5svg5-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.12)
+               pkg-kde-tools (>= 0.12),
+               qtscript5-dev
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
@@ -34,7 +31,6 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kdegraphics-libs-data (<< 4:4.7.1~)
 Breaks: kdegraphics-libs-data (<< 4:4.7.1~)
 Recommends: kamera
-Suggests: svgpart
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
  images.  It is capable of showing images in a full-screen slideshow view and
@@ -46,7 +42,7 @@ Package: gwenview-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: gwenview (= ${binary:Version}), kde-runtime-dbg, ${misc:Depends}
+Depends: gwenview (= ${binary:Version}), ${misc:Depends}
 Replaces: kdegraphics-dbg (<< 4:4.7.1~)
 Breaks: kdegraphics-dbg (<< 4:4.7.1~)
 Description: debugging symbols for the gwenview
