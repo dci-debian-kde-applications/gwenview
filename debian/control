@@ -7,6 +7,7 @@ Uploaders: Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               extra-cmake-modules,
                libexiv2-dev,
                libjpeg-dev,
                libkf5activities-dev,
