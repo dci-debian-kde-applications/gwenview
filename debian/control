@@ -22,11 +22,11 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtscript5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/gwenview.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/gwenview.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/gwenview.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/gwenview.git
 
 Package: gwenview
 Section: graphics
