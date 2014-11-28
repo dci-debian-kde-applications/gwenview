@@ -1,11 +1,11 @@
-gwenview (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+gwenview (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * KDE Frameworks 5 Port
     + Semantic backend (baloo) is not be enabled for first release.
 
   [ Philip Muškovac ]
-  * New upstream beta release.
+  * New upstream release candidate.
   * Update Vcs urls for the new repository location.
   * Fix watch urls for new release location.
   * Bump Standards-Version to 3.9.6, no changes needed.
