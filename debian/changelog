@@ -1,4 +1,4 @@
-gwenview (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+gwenview (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
 
   [ Harald Sitter ]
   * KDE Frameworks 5 Port
@@ -9,8 +9,9 @@ gwenview (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
   * Update Vcs urls for the new repository location.
   * Fix watch urls for new release location.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * PPA build
 
- -- Harald Sitter <apachelogger@kubuntu.org>  Fri, 31 Oct 2014 15:37:28 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 19:58:15 +0100
 
 gwenview (4:4.14.2-1) unstable; urgency=medium
 
