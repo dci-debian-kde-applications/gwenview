@@ -32,8 +32,6 @@ Package: gwenview
 Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdegraphics-libs-data (<< 4:4.7.1~)
-Breaks: kdegraphics-libs-data (<< 4:4.7.1~)
 Recommends: kamera
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
@@ -47,8 +45,6 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: gwenview (= ${binary:Version}), ${misc:Depends}
-Replaces: kdegraphics-dbg (<< 4:4.7.1~)
-Breaks: kdegraphics-dbg (<< 4:4.7.1~)
 Description: debugging symbols for the gwenview
  This package contains debugging files used to investigate problems with
  Gwenview.
