@@ -5,7 +5,8 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: baloo-kf5-dev,
+               cmake,
                debhelper (>= 9),
                extra-cmake-modules,
                libexiv2-dev,
