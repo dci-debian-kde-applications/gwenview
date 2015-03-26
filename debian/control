@@ -26,7 +26,7 @@ Build-Depends: baloo-dev (>= 5.1.90),
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.2.0),
-               qtscript5-dev
+               qtscript5-dev (>= 5.2.0~)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
