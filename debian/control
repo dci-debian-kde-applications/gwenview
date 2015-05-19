@@ -20,13 +20,13 @@ Build-Depends: baloo-dev (>= 5.1.90),
                libphonon4qt5-dev (>= 4.6.60),
                libphonon4qt5experimental4,
                libpng-dev,
-               libqt5opengl5-dev (>= 5.2.0~),
-               libqt5svg5-dev (>= 5.2.0~),
-               libqt5x11extras5-dev (>= 5.2.0~),
+               libqt5opengl5-dev (>= 5.4),
+               libqt5svg5-dev (>= 5.4),
+               libqt5x11extras5-dev (>= 5.4),
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2.0),
-               qtscript5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.4),
+               qtscript5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
