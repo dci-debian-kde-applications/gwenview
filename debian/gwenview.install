@@ -3,7 +3,7 @@ usr/lib/x86_64-linux-gnu/libgwenviewlib.so.4.*
 usr/lib/x86_64-linux-gnu/libgwenviewlib.so.5
 usr/lib/x86_64-linux-gnu/qt5/plugins/gvpart.so
 usr/share/appdata/gwenview.appdata.xml
-usr/share/applications/gwenview.desktop
+usr/share/applications/org.kde.gwenview.desktop
 usr/share/doc/HTML/*/gwenview/
 usr/share/gvpart/gvpart.rc
 usr/share/gwenview/

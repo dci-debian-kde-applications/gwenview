@@ -1,7 +1,8 @@
-gwenview (4:15.04.2-1~) UNRELEASED; urgency=medium
+gwenview (4:15.04.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.2).
+  * New upstream release (15.04.3).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:30:23 +0200
 
