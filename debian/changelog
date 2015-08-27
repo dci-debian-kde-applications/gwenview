@@ -5,6 +5,8 @@ gwenview (4:15.08.0-1) unstable; urgency=medium
   * New upstream release (15.04.3).
   * New upstream release (15.08.0).
   * Update install files.
+  * Add plasma-workspace runtime dependency, not really usable without
+    it, (can this be reduced somehow?).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 17:28:27 +0200
 
