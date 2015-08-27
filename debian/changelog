@@ -1,4 +1,4 @@
-gwenview (4:15.08.0-1~) UNRELEASED; urgency=medium
+gwenview (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.2).
@@ -6,7 +6,7 @@ gwenview (4:15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.08.0).
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 15:15:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 17:28:27 +0200
 
 gwenview (4:15.07.90-0ubuntu1) wily; urgency=medium
 
