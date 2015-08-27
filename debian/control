@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: baloo-dev (>= 5.1.90),
+Build-Depends: baloo-kf5-dev (>= 5.1.90),
                cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.2.0),
@@ -37,8 +37,6 @@ Package: gwenview
 Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kdegraphics-libs-data (<< 4:4.7.1~)
-Breaks: kdegraphics-libs-data (<< 4:4.7.1~)
 Recommends: kamera
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
@@ -52,8 +50,6 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: gwenview (= ${binary:Version}), ${misc:Depends}
-Replaces: kdegraphics-dbg (<< 4:4.7.1~)
-Breaks: kdegraphics-dbg (<< 4:4.7.1~)
 Description: debugging symbols for the gwenview
  This package contains debugging files used to investigate problems with
  Gwenview.
