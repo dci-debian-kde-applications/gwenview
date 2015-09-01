@@ -1,5 +1,7 @@
 gwenview (4:15.08.0-0ubuntu2) UNRELEASED; urgency=medium
 
+  * Recommend kio-extras as gwenview uses for example the zip protocol to
+    load zips directly. Additionally this is used in tests.
   * Make autopkgetests install recommends as we need various runtime bits to
     make the tests pass correctly
 
