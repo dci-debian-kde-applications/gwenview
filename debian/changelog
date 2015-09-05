@@ -1,8 +1,8 @@
-gwenview (4:15.08.0-2~) UNRELEASED; urgency=medium
+gwenview (4:15.08.0-2) experimental; urgency=medium
 
   * Force building against the experimental version of baloo.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 12:57:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 19:36:58 +0200
 
 gwenview (4:15.08.0-1) unstable; urgency=medium
 
