@@ -34,7 +34,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/gwenview.git
 Package: gwenview
 Section: graphics
 Architecture: any
-Depends: plasma-workspace, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kamera, kio-extras
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of

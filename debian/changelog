@@ -22,6 +22,21 @@ gwenview (4:15.08.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 17:28:27 +0200
 
+gwenview (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Recommend kio-extras as gwenview uses for example the zip protocol to
+    load zips directly. Additionally this is used in tests.
+  * Make autopkgetests install recommends as we need various runtime bits to
+    make the tests pass correctly
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 01 Sep 2015 14:12:42 +0200
+
+gwenview (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 27 Aug 2015 17:37:03 +0100
+
 gwenview (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   * New upstream release

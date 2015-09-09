@@ -1,5 +1,5 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus-x11,
-         kinit, kded5, plasma-workspace, kio-extras
-Restrictions: build-needed
+         kinit, kded5, kio-extras
+Restrictions: build-needed, needs-recommends
