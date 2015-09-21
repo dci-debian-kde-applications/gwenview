@@ -1,6 +1,7 @@
 gwenview (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.1)
+  * Adding libkipi-dev and libkdcraw-dev as build dependencies
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 22:49:39 +0100
 
