@@ -1,10 +1,14 @@
-gwenview (4:15.08.1-2) UNRELEASED; urgency=medium
+gwenview (4:15.08.2-1~) UNRELEASED; urgency=medium
 
+  [ Sune Vuorela ]
   * Add a Recommends on qt5-image-formats-plugins to get the ability to view
     tiff files back.
   * Remove Eshat from Uploaders per his request. Thanks for the work.
 
- -- Sune Vuorela <sune@debian.org>  Tue, 22 Sep 2015 08:22:52 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 15:25:40 +0200
 
 gwenview (4:15.08.1-1) unstable; urgency=medium
 
