@@ -4,6 +4,25 @@ gwenview (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:30:33 +0000
 
+gwenview (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:15 +0100
+
+gwenview (4:15.08.2-1) unstable; urgency=medium
+
+  [ Sune Vuorela ]
+  * Add a Recommends on qt5-image-formats-plugins to get the ability to view
+    tiff files back.
+  * Remove Eshat from Uploaders per his request. Thanks for the work.
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.08.2).
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:07:05 +0200
+
 gwenview (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * Vivid backport
@@ -11,12 +30,42 @@ gwenview (4:15.08.2-0ubuntu1) wily; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 11:51:51 +0100
 
+gwenview (4:15.08.1-1) unstable; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 02:45:08 +0200
+
 gwenview (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release (15.08.1)
   * Adding libkipi-dev and libkdcraw-dev as build dependencies
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:11:36 +0100
+
+gwenview (4:15.08.0-3) unstable; urgency=medium
+
+  * Merge with kubuntu changes.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 10:42:29 +0200
+
+gwenview (4:15.08.0-2) experimental; urgency=medium
+
+  * Force building against the experimental version of baloo.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 19:36:58 +0200
+
+gwenview (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.2).
+  * New upstream release (15.04.3).
+  * New upstream release (15.08.0).
+  * Update install files.
+  * Add plasma-workspace runtime dependency, not really usable without
+    it, (can this be reduced somehow?).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 17:28:27 +0200
 
 gwenview (4:15.08.0-0ubuntu2) wily; urgency=medium
 
@@ -52,11 +101,27 @@ gwenview (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:27:55 +0200
 
+gwenview (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:24 +0200
+
 gwenview (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:36:55 -0700
+
+gwenview (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+  * Update install files.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 22:37:04 +0100
 
 gwenview (4:14.12.2-0ubuntu1) vivid; urgency=medium
 

@@ -1,1 +1,14 @@
-usr/*
+usr/bin/gwenview
+usr/lib/*/libgwenviewlib.so.4.*
+usr/lib/*/libgwenviewlib.so.5
+usr/lib/*/qt5/plugins/gvpart.so
+usr/share/appdata/gwenview.appdata.xml
+usr/share/applications/org.kde.gwenview.desktop
+usr/share/doc/HTML/*/gwenview/
+usr/share/gwenview/
+usr/share/icons/hicolor/*/actions/document-share.png
+usr/share/icons/hicolor/*/apps/gwenview.png
+usr/share/kservices5/ServiceMenus/slideshow.desktop
+usr/share/kservices5/gvpart.desktop
+usr/share/kxmlgui5/gvpart/
+usr/share/kxmlgui5/org.kde.gwenview/
