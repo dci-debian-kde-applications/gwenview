@@ -40,14 +40,3 @@ Description: image viewer
  making simple adjustments, such as rotating or cropping images.
  .
  This package is part of the KDE graphics module.
-
-Package: gwenview-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: gwenview (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for the gwenview
- This package contains debugging files used to investigate problems with
- Gwenview.
- .
- This package is part of the KDE graphics module.
