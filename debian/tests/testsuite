@@ -1,9 +1,13 @@
 #!/bin/sh
 
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
 export HOME="$(pwd)/debian/testsuite.home"
 [ -e "${HOME}" ] || mkdir "${HOME}"
 xvfb-run -a --server-args="-screen 0 1024x768x24" \
-    dbus-launch --exit-with-session debian/tests/testsuite.xsession
-ret=$?
-rm -rf "${HOME}"
-exit $ret
+    Xephyr -reset -br -screen 1024x768 :2 & x_pid=$!
+
+trap "kdeinit5_shutdown; kill ${x_pid}; rm -rf ${HOME}" EXIT
+
+DISPLAY=:2 kdeinit5
+DISPLAY=:2 dbus-launch --exit-with-session dh_auto_test
