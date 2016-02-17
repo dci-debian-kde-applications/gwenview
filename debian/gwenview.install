@@ -2,7 +2,7 @@ usr/bin/gwenview
 usr/lib/*/libgwenviewlib.so.4.*
 usr/lib/*/libgwenviewlib.so.5
 usr/lib/*/qt5/plugins/gvpart.so
-usr/share/appdata/gwenview.appdata.xml
+usr/share/appdata/org.kde.gwenview.appdata.xml
 usr/share/applications/org.kde.gwenview.desktop
 usr/share/doc/HTML/*/gwenview/
 usr/share/gwenview/

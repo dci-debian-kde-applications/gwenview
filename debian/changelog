@@ -2,6 +2,7 @@ gwenview (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
+  * Fixing path in gwenview.install
 
   [ Philip Muškovac ]
   * Merge with debian git master
