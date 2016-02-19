@@ -9,6 +9,7 @@ gwenview (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Add missing optional dependencies. 
+  * Fix deps to kf5 versions. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:30:33 +0000
 
