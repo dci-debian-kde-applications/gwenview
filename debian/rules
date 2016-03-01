@@ -13,4 +13,4 @@ override_dh_auto_configure:
 	$(overridden_command) -- -DGWENVIEW_SEMANTICINFO_BACKEND_NONE=true
 
 override_dh_strip:
-	$(overridden_command) --ddeb-migration='gwenview-dbg (<= 4:15.12.1-1~~)'
+	$(overridden_command) --dbgsym-migration='gwenview-dbg (<= 4:15.12.1-1~~)'
