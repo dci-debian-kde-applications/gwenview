@@ -1,4 +1,4 @@
-gwenview (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+gwenview (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -11,7 +11,7 @@ gwenview (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Add missing optional dependencies. 
   * Fix deps to kf5 versions. 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:30:33 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:25:07 +0100
 
 gwenview (4:15.08.3-1) unstable; urgency=medium
 
