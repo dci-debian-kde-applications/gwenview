@@ -1,3 +1,11 @@
+gwenview (4:15.12.3-1~1.gbp791e9e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @791e9e7b44fb8dc4df6df39329cf90ac30b2e2ba **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:37:10 +0200
+
 gwenview (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
