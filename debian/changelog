@@ -1,9 +1,9 @@
-gwenview (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
+gwenview (4:15.12.3-0ubuntu1) xenial; urgency=medium
 
   * New upstream bugfix release
   * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 18:57:29 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 Apr 2016 14:56:15 -0700
 
 gwenview (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
