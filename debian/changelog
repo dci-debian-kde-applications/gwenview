@@ -1,10 +1,25 @@
-gwenview (4:16.04.0-1~1.gbp22215b) UNRELEASED; urgency=medium
+gwenview (4:16.04.0-1~2.gbpf663a8) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f663a828d5f1dab467e850b02aef4de69d110af0 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @22215bf5827e55b0b1983f1000e91da6a557e0aa **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 00:36:12 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Hacky use of xephyr
+  * kdeinit should be in the same dbus connection
+  * script exec permission
+  * Tests also need org.kde.kuiserver.service
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Acknowledge NMU 4:15.08.3-1.1.
+    Thanks to Tobias Frost for the nmu
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 30 Apr 2016 13:36:14 +0200
 
 gwenview (4:15.12.1-1) experimental; urgency=medium
 
