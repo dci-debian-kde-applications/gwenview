@@ -3,8 +3,6 @@ gwenview (4:16.04.0-1~2.gbpf663a8) UNRELEASED; urgency=medium
   ** SNAPSHOT build @f663a828d5f1dab467e850b02aef4de69d110af0 **
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @22215bf5827e55b0b1983f1000e91da6a557e0aa **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
