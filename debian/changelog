@@ -1,6 +1,4 @@
-gwenview (4:16.04.1-1~1.gbpba0a77) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @ba0a77111530ae62f0f340b7cb4565e8be63eaa2 **
+gwenview (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -11,15 +9,15 @@ gwenview (4:16.04.1-1~1.gbpba0a77) UNRELEASED; urgency=medium
   * kdeinit should be in the same dbus connection
   * script exec permission
   * Tests also need org.kde.kuiserver.service
-  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Acknowledge NMU 4:15.08.3-1.1.
     Thanks to Tobias Frost for the nmu
   * Update testsuite script
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:36:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:30:29 +0200
 
 gwenview (4:15.12.1-1) experimental; urgency=medium
 
