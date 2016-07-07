@@ -1,22 +1,29 @@
-gwenview (4:16.04.2-0neon) xenial; urgency=medium
+gwenview (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release.
 
- -- Neon CI <neon@kde.org>  Wed, 15 Jun 2016 14:46:03 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:06:30 +0200
 
-gwenview (4:16.04.1-0neon) xenial; urgency=medium
+gwenview (4:16.04.1-1) unstable; urgency=medium
 
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 10 May 2016 12:49:29 +0000
-
-gwenview (4:16.04.0-1~1.gbp22215b) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @22215bf5827e55b0b1983f1000e91da6a557e0aa **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 00:36:12 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Hacky use of xephyr
+  * kdeinit should be in the same dbus connection
+  * script exec permission
+  * Tests also need org.kde.kuiserver.service
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Acknowledge NMU 4:15.08.3-1.1.
+    Thanks to Tobias Frost for the nmu
+  * Update testsuite script
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:30:29 +0200
 
 gwenview (4:15.12.1-1) experimental; urgency=medium
 
