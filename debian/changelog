@@ -1,3 +1,11 @@
+gwenview (4:16.04.3-1~1.gbpb666ec) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b666ec0e9fa6dc6b4a23c887a1fab375b37f8fa0 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:36:16 +0200
+
 gwenview (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
