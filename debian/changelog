@@ -1,3 +1,10 @@
+gwenview (4:16.08.0-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Aug 2016 19:48:08 +0200
+
 gwenview (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
