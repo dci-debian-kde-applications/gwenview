@@ -4,6 +4,7 @@ gwenview (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Add the libkf5kdcraw-dev and libkf5kipi-dev, to enable RAW metadata and
     KIPI plugins. (Closes: #827183)
+  * Restrict baloo-kf5-dev on Linux, so gwenview can be built on Hurd too.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Aug 2016 19:48:08 +0200
 
