@@ -1,4 +1,6 @@
-gwenview (4:16.08.0-1~1.gbpad506d) UNRELEASED; urgency=medium
+gwenview (4:16.08.0-1~2.gbpcd115b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @cd115b69d2cc2db67e79cb79efe2dc93c5ae03fa **
 
   [ Pino Toscano ]
   * New upstream release.
@@ -8,8 +10,13 @@ gwenview (4:16.08.0-1~1.gbpad506d) UNRELEASED; urgency=medium
   * Replace the libphonon4qt5experimental4 build dependency with
     libphononexperimental-dev, so we do not depend on the SONAME of
     libphononexperimental.
+  * start preparing 16.08.0
+  * add libkf5kdcraw-dev and libkf5kipi-dev B-Ds
+  * adding kipi plugins fixes #827183
+  * restrict baloo-kf5-dev on Linux
+  * replace libphonon4qt5experimental4 B-D with libphononexperimental-dev
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Aug 2016 19:48:08 +0200
+ -- Pino Toscano <pino@debian.org>  Fri, 26 Aug 2016 10:16:45 +0200
 
 gwenview (4:16.04.2-1) unstable; urgency=medium
 
