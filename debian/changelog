@@ -1,4 +1,6 @@
-gwenview (4:16.08.0-1) unstable; urgency=medium
+gwenview (4:16.08.0-1~2.gbpcd115b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @cd115b69d2cc2db67e79cb79efe2dc93c5ae03fa **
 
   * Team upload.
   * New upstream release.
