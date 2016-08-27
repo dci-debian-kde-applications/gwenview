@@ -1,6 +1,6 @@
-gwenview (4:16.08.0-1~2.gbpcd115b) UNRELEASED; urgency=medium
+gwenview (4:16.08.0-1~3.gbp0cbc33) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cd115b69d2cc2db67e79cb79efe2dc93c5ae03fa **
+  ** SNAPSHOT build @0cbc33fe07d4cd15e5984ebd5ec121caf758a534 **
 
   * Team upload.
   * New upstream release.
@@ -14,8 +14,11 @@ gwenview (4:16.08.0-1~2.gbpcd115b) UNRELEASED; urgency=medium
     directory as install place.
     - remove gwenview.install, no more used now
   * Remove unused debian/meta/ stuff.
+  * simplify local installation
+  * remove unused debian/meta/ stuff
+  * release to unstable, as team upload
 
- -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 08:59:51 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 11:27:27 +0200
 
 gwenview (4:16.04.2-1) unstable; urgency=medium
 
