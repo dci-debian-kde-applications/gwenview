@@ -8,6 +8,9 @@ gwenview (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Replace the libphonon4qt5experimental4 build dependency with
     libphononexperimental-dev, so we do not depend on the SONAME of
     libphononexperimental.
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - remove gwenview.install, no more used now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Aug 2016 19:48:08 +0200
 
