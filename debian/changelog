@@ -1,5 +1,8 @@
-gwenview (4:16.08.1-1~1.gbpa77c44) UNRELEASED; urgency=medium
+gwenview (4:16.08.2-1~1.gbp56a32c) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @56a32c6745e05d4b129f72d500896da678698f0c **
+
+  [ Pino Toscano ]
   ** SNAPSHOT build @a77c44a54215e239f72fbc7a98e08e8c44f3e023 **
 
   * Team upload.
@@ -19,7 +22,10 @@ gwenview (4:16.08.1-1~1.gbpa77c44) UNRELEASED; urgency=medium
   * release to unstable, as team upload
   * UNRELEASED
 
- -- Pino Toscano <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:36:36 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 14 Oct 2016 00:36:39 +0200
 
 gwenview (4:16.04.2-1) unstable; urgency=medium
 
