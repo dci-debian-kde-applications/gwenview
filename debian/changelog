@@ -1,10 +1,8 @@
-gwenview (4:16.08.3-1~1.gbp2a4f59) UNRELEASED; urgency=medium
+gwenview (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @2a4f5965b45bd035147542562f081f0533dd97a4 **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 11 Nov 2016 00:36:15 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:54:18 +0100
 
 gwenview (4:16.08.2-1) unstable; urgency=medium
 
