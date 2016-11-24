@@ -1,4 +1,5 @@
 usr/bin/gwenview
+usr/bin/gwenview_importer
 usr/lib/*/libgwenviewlib.so.4.*
 usr/lib/*/libgwenviewlib.so.5
 usr/lib/*/qt5/plugins/gvpart.so
@@ -12,3 +13,5 @@ usr/share/kservices5/ServiceMenus/slideshow.desktop
 usr/share/kservices5/gvpart.desktop
 usr/share/kxmlgui5/gvpart/
 usr/share/kxmlgui5/org.kde.gwenview/
+usr/share/solid/actions/gwenview_importer.desktop
+usr/share/solid/actions/gwenview_importer_camera.desktop
