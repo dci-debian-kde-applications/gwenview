@@ -13,5 +13,6 @@ usr/share/kservices5/ServiceMenus/slideshow.desktop
 usr/share/kservices5/gvpart.desktop
 usr/share/kxmlgui5/gvpart/
 usr/share/kxmlgui5/gwenview/gwenviewui.rc
+usr/share/locale/
 usr/share/solid/actions/gwenview_importer.desktop
 usr/share/solid/actions/gwenview_importer_camera.desktop
