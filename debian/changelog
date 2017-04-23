@@ -1,6 +1,10 @@
 gwenview (4:16.08.3-2) UNRELEASED; urgency=medium
 
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add kdeinit as a dependency (Closes: #860423 ).
+    Thanks Christoph Egger for the bug and the triagging!
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Apr 2017 22:18:52 -0300
 
 gwenview (4:16.08.3-1) unstable; urgency=medium
