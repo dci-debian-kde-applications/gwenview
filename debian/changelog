@@ -1,5 +1,8 @@
 gwenview (4:16.08.3-3) UNRELEASED; urgency=medium
 
+  * Fix wrong package name: kdeinit is provided by kinit (Closes: #860992).
+    Thanks Michael Musenbrock for the bug report.
+
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 23 Apr 2017 10:17:19 -0300
 
 gwenview (4:16.08.3-2) unstable; urgency=medium
