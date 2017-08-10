@@ -36,6 +36,8 @@ Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kamera, kio-extras, qt5-image-formats-plugins
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
  images.  It is capable of showing images in a full-screen slideshow view and
