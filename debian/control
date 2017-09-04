@@ -8,7 +8,6 @@ Build-Depends: baloo-kf5-dev (>= 5.13) [linux-any],
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
                kinit-dev,
-               kio-dev (>= 5.4),
                libexiv2-dev,
                libjpeg-dev,
                libkf5activities-dev,
@@ -19,6 +18,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13) [linux-any],
                liblcms2-dev,
                libphonon4qt5-dev (>= 4.6.60),
                libphononexperimental-dev,
+               libphonon4qt5experimental-dev (>= 4.9.1),
                libpng-dev,
                libqt5opengl5-dev (>= 5.4),
                libqt5svg5-dev (>= 5.4),
@@ -37,6 +37,8 @@ Section: graphics
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, kinit
 Recommends: kamera, kio-extras, qt5-image-formats-plugins
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: image viewer
  Gwenview is an image viewer, ideal for browsing and displaying a collection of
  images.  It is capable of showing images in a full-screen slideshow view and
