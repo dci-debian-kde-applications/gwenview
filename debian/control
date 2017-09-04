@@ -17,8 +17,8 @@ Build-Depends: baloo-kf5-dev (>= 5.13) [linux-any],
                libkf5kipi-dev,
                liblcms2-dev,
                libphonon4qt5-dev (>= 4.6.60),
-               libphononexperimental-dev,
                libphonon4qt5experimental-dev (>= 4.9.1),
+               libphononexperimental-dev,
                libpng-dev,
                libqt5opengl5-dev (>= 5.4),
                libqt5svg5-dev (>= 5.4),
@@ -26,7 +26,7 @@ Build-Depends: baloo-kf5-dev (>= 5.13) [linux-any],
                pkg-config,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
-               qtscript5-dev (>= 5.4)
+               qtscript5-dev (>= 5.4),
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/gwenview.git
@@ -35,7 +35,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/gwenview.git
 Package: gwenview
 Section: graphics
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, kinit
+Depends: kinit, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kamera, kio-extras, qt5-image-formats-plugins
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
