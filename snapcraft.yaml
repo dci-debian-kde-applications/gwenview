@@ -1,0 +1,64 @@
+---
+name: gwenview
+version: 17.08.1
+summary: A simple image viewer
+description: |-
+    Gwenview is a fast and easy to use image viewer by KDE, ideal for browsing and displaying a collection of images.
+
+    Features:
+
+    - Supports simple image manipulations: rotate, mirror, flip, and resize
+    - Supports basic file management actions such as copy, move, delete, and others
+    - Functions both as a standalone application and an embedded viewer in the Konqueror web browser
+    - Can be extended using KIPI plugins.
+confinement: strict
+grade: stable
+apps:
+    gwenview:
+        command: kf5-launch gwenview
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.gwenview
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    gwenview:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - libexiv2-dev
+        - libjpeg-dev
+        - libkf5kdcraw-dev
+        - libkf5kdelibs4support-dev
+        - libkf5kipi-dev
+        - liblcms2-dev
+        - libphonon4qt5-dev
+        - libphonon4qt5experimental-dev
+        - libpng-dev
+        - pkg-config
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/gwenview-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
