@@ -49,6 +49,7 @@ parts:
         - libkf5kdelibs4support-dev
         - libkf5kipi-dev
         - liblcms2-dev
+        - libcfitsio-dev
         - libphonon4qt5-dev
         - libphonon4qt5experimental-dev
         - libpng-dev
